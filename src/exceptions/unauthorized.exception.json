@@ -1,0 +1,17 @@
+{
+  "bearerUnauthorized": {
+    "statusCode": 401,
+    "message": "Unauthorized, please check bearer.",
+    "error": "Unauthorized"
+  },
+  "userBearerUnauthorized": {
+    "statusCode": 401,
+    "message": "Unauthorized, please use user bearer.",
+    "error": "Unauthorized"
+  },
+  "guestBearerUnauthorized": {
+    "statusCode": 401,
+    "message": "Unauthorized, please check guest bearer.",
+    "error": "Unauthorized"
+  }
+}

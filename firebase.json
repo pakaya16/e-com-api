@@ -1,0 +1,85 @@
+{
+  "hosting": {
+    "public": "public",
+    "cleanUrls": true,
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "api",
+        "region": "asia-southeast1"
+      }
+    ],
+    "ignore": [
+      ".git",
+      "firebase-debug.log",
+      "firebase-debug.*.log",
+      "firebase.json",
+      "**/node_modules/**",
+      "api/**",
+      "components/**",
+      "contexts/**",
+      "guards/**",
+      "hocs/**",
+      "hooks/**",
+      "icons/**",
+      "layouts/**",
+      "libs/**",
+      "locales/**",
+      "note/**",
+      "pages/**",
+      "public/**",
+      "sections/**",
+      "slices/**",
+      "store/**",
+      "theme/**",
+      "utils/**",
+      "readme.md",
+      "note/**",
+      ".env.*",
+      ".firebaserc-*",
+      ".prettierrc",
+      "*.log",
+      ".gitignore",
+      "seed.ts"
+    ]
+  },
+  "functions": {
+    "source": ".",
+    "predeploy": "npm --prefix \"$RESOURCE_DIR\" run build",
+    "runtime": "nodejs18",
+    "ignore": [
+      ".git",
+      "firebase-debug.log",
+      "firebase-debug.*.log",
+      "firebase.json",
+      "**/node_modules/**",
+      "api/**",
+      "components/**",
+      "contexts/**",
+      "guards/**",
+      "hocs/**",
+      "hooks/**",
+      "icons/**",
+      "layouts/**",
+      "libs/**",
+      "locales/**",
+      "note/**",
+      "pages/**",
+      "public/**",
+      "sections/**",
+      "slices/**",
+      "store/**",
+      "theme/**",
+      "utils/**",
+      "readme.md",
+      "note/**",
+      ".env.*",
+      ".firebaserc-*",
+      ".prettierrc",
+      "*.log",
+      ".gitignore",
+      "seed.ts"
+    ]
+  }
+}
+
