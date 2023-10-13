@@ -1,0 +1,8 @@
+- typeorm
+- jwt auth
+- swagger
+- language Nodejs
+- library nestJs
+  - https://docs.nestjs.com/
+- Google cloud function server
+- AWS Rds postgres free tier
