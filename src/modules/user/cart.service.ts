@@ -3,7 +3,7 @@ import { InjectRepository, InjectEntityManager } from "@nestjs/typeorm";
 import { Repository } from "typeorm";
 import { ConfigService } from "@nestjs/config";
 import { Cart, CartItems } from "./entities/cart.entity";
-import { Not, In, MoreThan } from "typeorm";
+import { Not, In } from "typeorm";
 import { addMinutes } from "date-fns";
 import { EntityManager } from "typeorm";
 import { ProductService } from "../product/product.service";

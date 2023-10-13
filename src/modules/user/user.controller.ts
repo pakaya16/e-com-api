@@ -13,7 +13,6 @@ import { error_400, error_401 } from "../../utils/api-response-helper";
 import * as jwtFn from "jsonwebtoken";
 import { ConfigService } from "@nestjs/config";
 import { RequestUserLoginDto, RequestUserRegisterDto } from "./dto/user-register.dto";
-import { ApiBearerAuth } from "@nestjs/swagger";
 import { UserAuth } from "../../decorators/user-auth.decorator";
 
 @ApiTags("User")

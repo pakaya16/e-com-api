@@ -1,20 +1,12 @@
 import { ApiTags } from "@nestjs/swagger";
-// import { CustomApiResponse } from "../../decorators/api-docs-response.decorator";
 import {
   Controller,
-  Post,
-  Body,
-  Request,
   Param,
   Get,
   Query,
-  ValidationPipe
 } from "@nestjs/common";
 import { Public } from "../../decorators/public.decorator";
-import { error_401, error_404 } from "../../utils/api-response-helper";
-import * as jwtFn from "jsonwebtoken";
-// import { RequestSellerCreateProductDto } from "./dto/seller-create-product.dto";
-import { ApiBearerAuth } from "@nestjs/swagger";
+import { error_404 } from "../../utils/api-response-helper";
 import { ProductService } from "./product.service";
 import { CustomApiResponse } from "../../decorators/api-docs-response.decorator";
 import { RequestGetProductsByCategoryDto, RequestGetProductsBySellerDto } from "./dto/product.dto";
