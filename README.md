@@ -1,7 +1,8 @@
-- typeorm
+- TypeScript
+- TypeORM
 - jwt auth
-- swagger
-- language Nodejs
+- swagger 
+- Nodejs
 - library nestJs
   - https://docs.nestjs.com/
 - Google cloud function server
