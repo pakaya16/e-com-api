@@ -103,7 +103,7 @@
 #!.vscode/extensions.json
 #firebase-debug.log
 #key/**
-#note/**
+note/**
 .idea/**
 #sh/**
 functions/**
